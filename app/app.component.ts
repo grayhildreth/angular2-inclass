@@ -32,12 +32,11 @@ Component({
   </div>
 
   //////////////////////////////////////
-  <div class="col-sm-6 container">
+  <div class="col-sm-6 container jumbotron">
 
 
   <div class="container">
     <h1>My First Angular 2 App</h1>
-
     <task-list
       [childTaskList]="masterTaskList"
       (clickSender)="showDetails($event)"
